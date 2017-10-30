@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sun.l_listview.MainActivity">
+
+    <Button
+        android:id="@+id/btn_simple_adapter"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4081"
+        android:text="Simple Adapter"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_base_adapter"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4081"
+        android:text="Base Adapter"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
